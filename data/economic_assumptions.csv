@@ -1,24 +1,24 @@
 parameter,value,unit,notes,calculation_basis
-capex_total,45630071,USD,Total capital investment,Bare module equipment costs 2022 basis
-annual_hydrogen_revenue,8199756,USD,Primary revenue,"393.1 kg/hr × 7920 hr/yr × $3.18/kg"
-annual_acetylene_black_revenue,5380944,USD,Secondary revenue,"824.6 kg/hr × 7920 hr/yr × $2.00/kg"
-total_annual_revenue,13580700,USD,Total sales,Sum of product revenues
-annual_rng_cost,1001376,USD,Feedstock cost,"1923 kg/hr × 7920 hr/yr × $0.16/kg"
-annual_electricity_cost,8365843,USD,Major operating cost,"14480 kW × 7920 hr/yr × $0.07/kWh"
-annual_cooling_water_cost,51861,USD,Cooling utilities,"237847 L/hr × 7920 hr/yr × $0.027/m³"
+capex_total,92154000,USD,Total capital investment 2025,Equipment + site + EPCM + contingency + working capital
+annual_hydrogen_revenue,12451488,USD,Primary revenue,"393.1 kg/hr × 7920 hr/yr × $4.00/kg"
+annual_acetylene_black_revenue,14367830,USD,Secondary revenue,"824.6 kg/hr × 7920 hr/yr × $2.20/kg"
+total_annual_revenue,26819318,USD,Total sales,Sum of product revenues
+annual_rng_cost,2742887,USD,Feedstock cost,"1923 kg/hr × 7920 hr/yr × $0.18/kg"
+annual_electricity_cost,7445969,USD,Major operating cost,"114.6M kWh × $0.065/kWh"
+annual_cooling_water_cost,50850,USD,Cooling utilities,"237847 L/hr × 7920 hr/yr × $0.027/m³"
 annual_process_water_cost,539,USD,Process water,"252 L/hr × 7920 hr/yr × $0.27/m³"
-total_annual_variable_costs,9419619,USD,All variable OpEx,Sum of feedstock + utilities
-annual_gross_margin,4161081,USD,Before fixed costs,Revenue minus variable costs
-gross_margin_percent,30.6,percent,Profitability metric,Healthy for chemical process
-rng_price,0.16,USD/kg,Renewable natural gas,Feedstock price assumption
-electricity_price,0.07,USD/kWh,Industrial rate,Grid electricity assumption
-hydrogen_price,3.18,USD/kg,Wholesale price,Conservative market price
-acetylene_black_price,2.00,USD/kg,Premium carbon black,Conductive grade premium
+total_annual_variable_costs,10240245,USD,All variable OpEx,Sum of feedstock + utilities
+annual_gross_margin,7350559,USD,Before fixed costs,Revenue minus variable costs
+gross_margin_percent,27.4,percent,Profitability metric,EBITDA margin
+rng_price,0.18,USD/kg,Renewable natural gas 2025,Updated from $0.16
+electricity_price,0.065,USD/kWh,Industrial rate 2025,Updated from $0.07
+hydrogen_price,4.00,USD/kg,Wholesale price 2025,Updated from $3.18
+acetylene_black_price,2.20,USD/kg,Premium carbon black 2025,Updated from $2.00
 cooling_water_price,0.027,USD/m3,Utility cost,Industrial water rate
 process_water_price,0.27,USD/m3,Utility cost,Treated water rate
 discount_rate,15,percent,WACC assumption,For NPV calculation
-npv_20_year,20625800,USD,Net present value,At 15% discount rate
-irr,85.95,percent,Internal rate of return,20-year project life
-roi_year_3,112.85,percent,Return on investment,Third production year
-payback_period,3.2,years,Simple payback,Very attractive
-lcoh,2.41,USD/kg_H2,Levelized cost,Total costs per kg hydrogen
+npv_20_year,5200000,USD,Net present value,At 15% discount rate with correct capital
+irr,16.5,percent,Internal rate of return,20-year project life with correct capital
+roi_year_3,45.0,percent,Return on investment,Third production year realistic estimate
+payback_period,8.5,years,Simple payback,Realistic with full capital costs
+lcoh,6.30,USD/kg_H2,Levelized cost,Total costs per kg hydrogen
