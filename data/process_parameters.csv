@@ -10,7 +10,6 @@ feedstock_utilization,96.2,percent,Performance metrics,High methane conversion
 annual_operating_days,330,days/year,Financial analysis,Industry standard
 operating_hours_per_year,7920,hours/year,330 days × 24 hours,Actual operating time
 plant_lifetime,20,years,Financial analysis,Economic evaluation basis
-plant_capacity_factor,91.7,percent,Performance metrics,High availability
 reactor_temperature,2000,celsius,ASPEN R1OUT stream,Pentacarbon reactor
 reactor_pressure,2.07,bar,ASPEN R1OUT stream,Slightly above atmospheric
 power_requirement,14481,kW,process simulation,Reactor + compression + pumps
