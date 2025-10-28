@@ -1,12 +1,10 @@
 parameter,value,unit,source,notes
-methane_feed_rate,1741.4,kg/hr,ASPEN FEED stream,Pure methane in RNG feed
-feed_rate,1923,kg/hr,ASPEN FEED stream,Includes CH4 + CO2 + impurities
+rng_feed_rate,1923,kg/hr,ASPEN FEED stream,renewable natural gas input rate
 hydrogen_production_rate,393.1,kg/hr,ASPEN HYDPROD stream,Purified hydrogen product
 acetylene_black_production_rate,824.6,kg/hr,ASPEN CARBON stream,Solid carbon product
 process_water_rate,252,L/hr,Absorption tower,Process water input
 cooling_water_rate,237847,L/hr,Cooler 1-3 and Flash 1,Cooling water input
 co2_production_rate, 4.5, kg/hr, ASPEN net CO2 production, CO2 byproduct from reactor
-feedstock_utilization,96.2,percent,Performance metrics,High methane conversion
 plant_lifetime,20,years,Financial analysis,Economic evaluation basis
 capacity_factor,91,percent,industry standard,percentage actual operating time
 reactor_temperature,2000,celsius,ASPEN R1OUT stream,Pentacarbon reactor
