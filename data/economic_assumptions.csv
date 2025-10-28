@@ -12,6 +12,6 @@ general_variable_expense_rate,11.55,percent,selling/transfer/admin/research/ince
 operators_per_shift,1,operators/shift,Plant Operators,number of operators per shift
 shifts_per_day,5,shifts/day,Shifts per Day,number of shifts per day
 direct_hourly_wages,40,USD/hour,Direct Wages,hourly wage per operator
-equipment_purchase_cost,14000000,USD,Total equipment purchase cost,Sum of major equipment items
+equipment_purchase_cost,20000000,USD,Total equipment purchase cost,Sum of major equipment items
 bare_module_factor,3.21,,Bare module cost factor,Includes installation/piping/instrumentation/electrical/insulation
 average_salvage_rate,10,percent,average end of life asset value,Percent of initial capital cost
