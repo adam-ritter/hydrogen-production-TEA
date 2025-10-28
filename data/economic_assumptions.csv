@@ -22,3 +22,9 @@ irr,16.5,percent,Internal rate of return,20-year project life with correct capit
 roi_year_3,45.0,percent,Return on investment,Third production year realistic estimate
 payback_period,8.5,years,Simple payback,Realistic with full capital costs
 lcoh,6.30,USD/kg_H2,Levelized cost,Total costs per kg hydrogen
+depreciation_rate,8,percent,straight-line depreciation,Annual depreciation expense
+average_salvage_value,10,percent,average end of life asset value,Percent of initial capital cost
+general_variable_expense_rate,11.55,percent,selling/transfer/admin/research/incentive,percent of total revenue
+operators_per_shift,1,operators/shift,Plant Operators,number of operators per shift
+shifts_per_day,5,shifts/day,Shifts per Day,number of shifts per day
+direct_hourly_wages,40,USD/hour,Direct Wages,hourly wage per operator

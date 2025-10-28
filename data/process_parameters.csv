@@ -1,19 +1,16 @@
 parameter,value,unit,source,notes
 methane_feed_rate,1741.4,kg/hr,ASPEN FEED stream,Pure methane in RNG feed
-total_rng_feed_rate,1923,kg/hr,ASPEN FEED stream,Includes CH4 + CO2 + impurities
+feed_rate,1923,kg/hr,ASPEN FEED stream,Includes CH4 + CO2 + impurities
 hydrogen_production_rate,393.1,kg/hr,ASPEN HYDPROD stream,Purified hydrogen product
 acetylene_black_production_rate,824.6,kg/hr,ASPEN CARBON stream,Solid carbon product
-hydrogen_annual_production,3099912,kg/year,"393.1 kg/hr × 330 days × 24 hr/day",Design basis 330 operating days
-acetylene_black_annual_production,6498288,kg/year,"824.6 kg/hr × 330 days × 24 hr/day",Co-product revenue
-carbon_conversion_efficiency,90.0,percent,Performance metrics,High yield in reactor
+process_water_rate,252,L/hr,Absorption tower,Process water input
+cooling_water_rate,237847,L/hr,Cooler 1-3 and Flash 1,Cooling water input
+co2_production_rate, 4.5, kg/hr, ASPEN net CO2 production, CO2 byproduct from reactor
 feedstock_utilization,96.2,percent,Performance metrics,High methane conversion
-operating_days_per_year,330,days/year,Financial analysis,Industry standard
+annual_operating_days,330,days/year,Financial analysis,Industry standard
 operating_hours_per_year,7920,hours/year,330 days × 24 hours,Actual operating time
 plant_lifetime,20,years,Financial analysis,Economic evaluation basis
 plant_capacity_factor,91.7,percent,Performance metrics,High availability
 reactor_temperature,2000,celsius,ASPEN R1OUT stream,Pentacarbon reactor
 reactor_pressure,2.07,bar,ASPEN R1OUT stream,Slightly above atmospheric
 total_microwave_power,14480,kW,Financial analysis,Reactor + compression + pumps
-energy_per_kg_h2,36.8,kWh/kg_H2,Performance metrics,Total electricity consumption
-water_per_kg_h2,0.6,kg/kg_H2,Performance metrics,Very low water usage
-co2_per_kg_h2,0.12,kg_CO2eq/kg_H2,Financial analysis,From renewable electricity
