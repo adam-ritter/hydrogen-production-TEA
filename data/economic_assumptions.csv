@@ -1,5 +1,4 @@
 parameter,value,unit,notes,calculation_basis
-capex_total,92154000,USD,Total capital investment 2025,Equipment + site + EPCM + contingency + working capital
 rng_price,0.18,USD/kg,Renewable natural gas 2025,Updated from $0.16
 electricity_price,0.065,USD/kWh,Industrial rate 2025,Updated from $0.07
 hydrogen_price,4.00,USD/kg,Wholesale price 2025,Updated from $3.18
@@ -13,6 +12,6 @@ general_variable_expense_rate,11.55,percent,selling/transfer/admin/research/ince
 operators_per_shift,1,operators/shift,Plant Operators,number of operators per shift
 shifts_per_day,5,shifts/day,Shifts per Day,number of shifts per day
 direct_hourly_wages,40,USD/hour,Direct Wages,hourly wage per operator
-equipment_purchase_cost,33000000,USD,Total equipment purchase cost,Sum of major equipment items
+equipment_purchase_cost,14000000,USD,Total equipment purchase cost,Sum of major equipment items
 bare_module_factor,3.21,,Bare module cost factor,Includes installation/piping/instrumentation/electrical/insulation
 average_salvage_rate,10,percent,average end of life asset value,Percent of initial capital cost
