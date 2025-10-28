@@ -13,4 +13,4 @@ plant_lifetime,20,years,Financial analysis,Economic evaluation basis
 plant_capacity_factor,91.7,percent,Performance metrics,High availability
 reactor_temperature,2000,celsius,ASPEN R1OUT stream,Pentacarbon reactor
 reactor_pressure,2.07,bar,ASPEN R1OUT stream,Slightly above atmospheric
-total_microwave_power,14480,kW,Financial analysis,Reactor + compression + pumps
+power_requirement,14481,kW,process simulation,Reactor + compression + pumps
